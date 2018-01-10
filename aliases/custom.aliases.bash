@@ -1,6 +1,7 @@
 alias du='du -h --max-depth=1 | sort -hr'
 alias df='df -h'
 alias mkdir='mkdir -p'
+alias l="ls -lAh --color=always"
 
 # heroku deploy
 alias deploy='git push heroku master && heroku restart'
