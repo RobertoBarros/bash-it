@@ -5,6 +5,9 @@ alias df='df -h'
 alias deploy='git push heroku master && heroku restart'
 alias mdeploy='git push heroku master && heroku run rake db:migrate && heroku restart'
 
+# bundle
+alias beg="bundle exec guard"
+
 ####### Safety net
 alias rm='rm -i'
 alias rr="rm -ri"
